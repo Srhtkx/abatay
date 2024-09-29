@@ -93,7 +93,7 @@ export default function TeamCards() {
             {/* Sağ tarafa slogan; sadece masaüstünde göster */}
             <div className="hidden md:block absolute right-0 top-12">
               <p className="text-gray-500 text-sm italic">
-                "Profesyonel avukat ekibimizle, her alanda yanınızdayız."
+                {"Profesyonel avukat ekibimizle, her alanda yanınızdayız."}
               </p>
             </div>
           </div>

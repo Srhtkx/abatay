@@ -83,7 +83,7 @@ export default function Hakkimizda() {
           {/* Sağ tarafa slogan; sadece masaüstünde göster */}
           <div className="hidden md:block absolute right-0 top-12">
             <p className="text-gray-500 text-sm italic">
-              Etik Değerlere Sıkı Sıkıya Bağlılık.
+              {" Etik Değerlere Sıkı Sıkıya Bağlılık."}
             </p>
           </div>
         </div>

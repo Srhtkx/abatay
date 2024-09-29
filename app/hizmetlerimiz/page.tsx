@@ -108,7 +108,7 @@ export default function AboutPage() {
           {/* Sağ tarafa slogan; sadece masaüstünde göster */}
           <div className="hidden md:block absolute right-0 top-12">
             <p className="text-gray-500 text-sm italic">
-              İstanbulun Kalbinde, Sizin Yanınızda...
+              {"İstanbul'un Kalbinde, Sizin Yanınızda..."}
             </p>
           </div>
         </div>
