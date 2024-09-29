@@ -97,7 +97,7 @@ export default function Navbar() {
               </Link>
               <Link
                 href="/iletisim"
-                className="bg-white text-green-950 hover:text-white hover:bg-green-900 px-8 py-1 rounded-md font-bold no-underline"
+                className="bg-white text-green-950 hover:text-white hover:bg-green-900 px-8 py-1 rounded-md  no-underline"
               >
                 İletişim
               </Link>
