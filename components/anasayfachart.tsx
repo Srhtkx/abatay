@@ -103,7 +103,7 @@ export default function Component() {
     >
       <CarouselContent>
         {hukukAlanlari.map((alan, index) => (
-          <CarouselItem key={index} className="pl-4 md:basis-1/2 lg:basis-1/3">
+          <CarouselItem key={index} className="pl-4 md:basis-1/2 lg:basis-2/3">
             <Card className="h-full opacity-90">
               <CardHeader>
                 <CardTitle className="flex items-center">
