@@ -10,14 +10,14 @@ const aboutCards = [
     title: "Kamulaştırma Davasının Koşulları ve Yasal Süreci",
     description: "Borç tahsilatı ve iflas süreçlerinde hukuki destek",
     content: "Müşterilerimize en iyi hizmeti sunmak için çalışıyoruz.",
-    imageUrl: "/can.jpg", // Görsel ekledim
+    imageUrl: "/kütüphane.avif", // Görsel ekledim
   },
   {
     id: "yayin-2",
     title: "Tasarrufun İptali Davasının Yasal Koşulları",
     description: "Her türlü sözleşme hazırlama ve danışmanlık hizmetleri",
     content: "Sektörümüzde lider konuma gelmeyi hedefliyoruz.",
-    imageUrl: "/can.jpg", // Görsel ekledim
+    imageUrl: "/discekim.jpg", // Görsel ekledim
   },
   {
     id: "tutuklanma-kosul",
@@ -25,7 +25,7 @@ const aboutCards = [
     description:
       "Şirket kuruluşu, birleşme ve satın alma süreçlerinde hukuki destek",
     content: "Dürüstlük, şeffaflık ve müşteri memnuniyeti önceliklerimizdir.",
-    imageUrl: "/can.jpg", // Görsel ekledim
+    imageUrl: "/hukuk.jpg", // Görsel ekledim
   },
 ];
 
