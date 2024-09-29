@@ -23,6 +23,7 @@ const NavItem = ({
   text: string;
   onClick?: () => void;
   className?: string;
+  children?: React.ReactNode;
 }) => (
   <Link
     href={href}
@@ -171,6 +172,7 @@ export default function Navbar() {
                               onClick={() => setIsOpen(false)}
                             >
                               {item.text}
+
                               <ChevronRight className="h-5 w-5" />
                             </NavItem>
                           </motion.div>
