@@ -87,9 +87,12 @@ export default function Anasayfa() {
               her türlü hukuki süreçte güvenilir çözümler sunmaktayız.
             </p>
           </div>
-          <br />
 
           <Component />
+          <br />
+          <br />
+          <br />
+          <br />
         </main>
       </div>
     </div>
