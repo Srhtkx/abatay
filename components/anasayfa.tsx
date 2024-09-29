@@ -28,7 +28,7 @@ const NavItem = ({
   <Link
     href={href}
     onClick={onClick}
-    className={`text-white hover:text-green-200 px-3 py-2 text-xl font-medium transition-all duration-300 ease-in-out ${className}`}
+    className={`text-white hover:text-green-200 px-3 py-2 text-base font-medium transition-all duration-300 ease-in-out ${className}`}
   >
     {text}
   </Link>
@@ -69,7 +69,7 @@ export default function Navbar() {
             </div>
           </div>
           <div className="hidden md:block font-serif">
-            <div className="ml-10 text-white flex items-baseline space-x-8">
+            <div className="ml-10 text-white flex items-baseline space-x-6">
               <NavItem
                 href="/hakkimizda"
                 text="Hakkımızda"
