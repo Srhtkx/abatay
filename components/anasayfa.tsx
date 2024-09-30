@@ -28,7 +28,7 @@ const NavItem = ({
   <Link
     href={href}
     onClick={onClick}
-    className={`text-white hover:text-green-200 px-3 py-2 text-base font-medium transition-all duration-300 ease-in-out ${className}`}
+    className={`text-wihte hover:text-green-200 px-3 py-2 text-base font-medium transition-all duration-300 ease-in-out ${className}`}
   >
     {text}
   </Link>
@@ -111,7 +111,7 @@ export default function Navbar() {
               </SheetTrigger>
               <SheetContent
                 side="left"
-                className="w-10/14 sm:w-[400px] bg-regal-blue p-0 overflow-hidden"
+                className="w-10/14 sm:w-[400px] bg-white p-0 overflow-hidden"
               >
                 <AnimatePresence>
                   {isOpen && (
@@ -126,8 +126,8 @@ export default function Navbar() {
                         damping: 30,
                       }}
                     >
-                      <div className="flex justify-between items-center p-6 border-b border-white">
-                        <div className="text-white">
+                      <div className="flex justify-between items-center p-6">
+                        <div className="text-green-950">
                           <div
                             style={{
                               fontFamily: "Cormorant_Garamond",
@@ -147,12 +147,12 @@ export default function Navbar() {
                             AVUKATLIK BÜROSU
                           </div>
                         </div>
-                        <SheetClose className="rounded-full ml-16 text-white hover:bg-green-700 transition-all duration-300 ease-in-out focus:outline-none ">
+                        <SheetClose className="rounded-full ml-16 text-green-900 hover:bg-green-700 transition-all duration-300 ease-in-out focus:outline-none ">
                           <X className="h-6 w-6" />
                           <span className="sr-only">Close</span>
                         </SheetClose>
                       </div>
-                      <nav className="flex flex-col space-y-1 mt-8 px-6">
+                      <nav className="flex flex-col space-y-1 mt-8 px-6 ">
                         {[
                           { href: "/hakkimizda", text: "Hakkımızda" },
                           { href: "/ekibimiz", text: "Ekibimiz" },
@@ -168,7 +168,7 @@ export default function Navbar() {
                             <NavItem
                               href={item.href}
                               text={item.text}
-                              className="flex items-center justify-between py-3 border-b border-green-700 last:border-b-0"
+                              className="flex items-center justify-between py-3 border-b border-green-900 "
                               onClick={() => setIsOpen(false)}
                             >
                               {item.text}

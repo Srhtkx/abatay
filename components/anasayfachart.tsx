@@ -1,14 +1,10 @@
 "use client";
-import Link from "next/link";
 
+import Link from "next/link";
 import * as React from "react";
-import {
-  Card,
-  CardContent,
-  CardDescription,
-  CardHeader,
-  CardTitle,
-} from "@/components/ui/card";
+import { useEffect } from "react";
+import useEmblaCarousel from "embla-carousel-react";
+import { Card, CardContent } from "@/components/ui/card";
 import {
   Carousel,
   CarouselContent,
@@ -25,16 +21,21 @@ import {
   Globe,
   Package,
 } from "lucide-react";
-import { useEffect } from "react";
-import useEmblaCarousel from "embla-carousel-react";
 
 const hukukAlanlari = [
   {
-    baslik: "İcra & İflas Hukuku",
-    icon: Scale,
-    link: "/hizmetlerimiz/icra-iflas-hukuk",
+    baslik: "İş Hukuku & Sosyal Güvenlik",
+    icon: Briefcase,
+    link: "/hizmetlerimiz/is-sosyal-hukuku",
     aciklama:
-      "Abatay & İşeri Avukatlık Bürosu olarak, borçların tahsili, alacaklı haklarının korunması ve iflas süreçlerinin yönetimi konusunda müvekkillerimize kapsamlı danışmanlık ve temsil hizmeti sunmaktayız.",
+      "İşçi ve işveren ilişkilerinde ortaya çıkabilecek uyuşmazlıklarda, iş sözleşmeleri, kıdem ve ihbar tazminatları, işçi hakları ve sosyal güvenlik hukuku kapsamında profesyonel hizmet sunuyoruz.",
+  },
+  {
+    baslik: "Ceza Hukuku",
+    icon: Gavel,
+    link: "/hizmetlerimiz/ceza-hukuku",
+    aciklama:
+      "Ceza hukuku alanında, müvekkillerimizin haklarını korumak amacıyla ceza davalarında etkin bir savunma sağlıyor, soruşturma ve kovuşturma aşamalarında hukuki danışmanlık veriyoruz.",
   },
   {
     baslik: "Sözleşmeler Hukuku",
@@ -51,20 +52,6 @@ const hukukAlanlari = [
       "Ticaret ve şirketler hukuku alanında, şirket kuruluşları, birleşme ve devralmalar, ortaklık anlaşmaları gibi konularda müvekkillerimize hukuki destek sağlayarak ticari faaliyetlerin hukuki güvence altında yürütülmesini sağlamaktayız.",
   },
   {
-    baslik: "İş Hukuku & Sosyal Güvenlik",
-    icon: Briefcase,
-    link: "/hizmetlerimiz/is-sosyal-hukuku",
-    aciklama:
-      "İşçi ve işveren ilişkilerinde ortaya çıkabilecek uyuşmazlıklarda, iş sözleşmeleri, kıdem ve ihbar tazminatları, işçi hakları ve sosyal güvenlik hukuku kapsamında profesyonel hizmet sunuyoruz.",
-  },
-  {
-    baslik: "Ceza Hukuku",
-    icon: Gavel,
-    link: "/hizmetlerimiz/ceza-hukuku",
-    aciklama:
-      "Ceza hukuku alanında, müvekkillerimizin haklarını korumak amacıyla ceza davalarında etkin bir savunma sağlıyor, soruşturma ve kovuşturma aşamalarında hukuki danışmanlık veriyoruz.",
-  },
-  {
     baslik: "Bilişim & E-ticaret Hukuku",
     icon: Globe,
     link: "/hizmetlerimiz/bilisim-eticaret-hukuku",
@@ -78,6 +65,13 @@ const hukukAlanlari = [
     aciklama:
       "Uluslararası ticaret ve gümrük işlemlerinde, ithalat ve ihracat süreçlerindeki hukuki düzenlemelere uyum sağlamaları için müvekkillerimize hukuki danışmanlık ve temsil hizmetleri sunuyoruz.",
   },
+  {
+    baslik: "İcra & İflas Hukuku",
+    icon: Scale,
+    link: "/hizmetlerimiz/icra-iflas-hukuk",
+    aciklama:
+      "Abatay & İşeri Avukatlık Bürosu olarak, borçların tahsili, alacaklı haklarının korunması ve iflas süreçlerinin yönetimi konusunda müvekkillerimize kapsamlı danışmanlık ve temsil hizmeti sunmaktayız.",
+  },
 ];
 
 export default function Component() {
@@ -87,7 +81,7 @@ export default function Component() {
     if (emblaApi) {
       const intervalId = setInterval(() => {
         emblaApi.scrollNext();
-      }, 1000); // Changed from 1000 to 5000 milliseconds (5 seconds)
+      }, 5000); // Changed to 5000 milliseconds (5 seconds)
 
       return () => clearInterval(intervalId);
     }
@@ -103,28 +97,27 @@ export default function Component() {
     >
       <CarouselContent>
         {hukukAlanlari.map((alan, index) => (
-          <CarouselItem key={index} className=" md:basis-1/2 lg:basis-1/3">
-            <Card className="h-full opacity-90">
-              <CardHeader>
-                <CardTitle className="flex items-center">
-                  <alan.icon className="w-6 h-6 mr-2 text-green-900" />
-                  <span className="text-green-950">{alan.baslik}</span>
-                </CardTitle>
-              </CardHeader>
-              <CardContent>
-                <CardDescription className="text-green-900">
-                  {alan.aciklama}
-                </CardDescription>
-              </CardContent>
-              <CardContent className="pt-0">
-                <Link
-                  href={alan.link}
-                  className="text-sm font-medium text-green-700 hover:underline"
-                >
-                  Daha fazla bilgi...
-                </Link>
-              </CardContent>
-            </Card>
+          <CarouselItem key={index} className="md:basis-1/2 lg:basis-1/3">
+            <Link href={alan.link} className="block h-full">
+              <Card className="bg-white shadow-none rounded-lg overflow-hidden transition-transform duration-300 ease-in-out transform hover:scale-105 h-full">
+                <CardContent className="p-4">
+                  <div className="flex items-center mb-4">
+                    <div className="flex-shrink-0 mr-4">
+                      <div className="flex items-center justify-center h-10 w-10 rounded-md bg-green-950 text-white">
+                        <alan.icon className="h-6 w-6" aria-hidden="true" />
+                      </div>
+                    </div>
+                    <h3 className="text-lg font-medium text-green-950">
+                      {alan.baslik}
+                    </h3>
+                  </div>
+                  <p className="text-sm text-gray-600">{alan.aciklama}</p>
+                </CardContent>
+                <p className="text-green-800 hover:text-green-700 flex px-4">
+                  daha fazla...
+                </p>
+              </Card>
+            </Link>
           </CarouselItem>
         ))}
       </CarouselContent>
