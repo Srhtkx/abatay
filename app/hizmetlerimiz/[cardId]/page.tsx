@@ -215,6 +215,7 @@ export default function AboutCardPage({
             <CardContent className="space-y-4">
               <p>{card.contactUs}</p>
               <Link href="/iletisim">
+                <br />
                 <Button className="bg-white flex mx-auto px-12 text-green-950 rounded-md text-lg font-semibold hover:bg-green-800 hover:text-white">
                   Bizimle İletişime Geçin
                 </Button>

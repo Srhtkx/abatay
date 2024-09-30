@@ -1,56 +1,70 @@
 "use client";
 import Link from "next/link";
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+
 import Resimm from "@/public/kitap.webp";
 import Image from "next/image";
 import { GoLaw } from "react-icons/go";
+import {
+  Scale,
+  FileText,
+  Building2,
+  Briefcase,
+  Gavel,
+  Globe,
+  Package,
+} from "lucide-react";
 
 const aboutCards = [
   {
     id: "icra-iflas-hukuk",
     title: "İcra & İflas Hukuku",
-    description: "Borç tahsilatı ve iflas süreçlerinde hukuki destek",
-    content: "Müşterilerimize en iyi hizmeti sunmak için çalışıyoruz.",
+    description: "    Borç tahsilatı ve iflas süreçlerinde hukuki destek",
+
+    icon: Scale,
   },
   {
     id: "sozlesmeler-hukuku",
     title: "Sözleşmeler Hukuku",
     description: "Her türlü sözleşme hazırlama ve danışmanlık hizmetleri",
-    content: "Sektörümüzde lider konuma gelmeyi hedefliyoruz.",
+    icon: FileText,
   },
   {
     id: "ticaret-sirketler-hukuku",
     title: "Ticaret & Şirketler Hukuku",
     description:
       "Şirket kuruluşu, birleşme ve satın alma süreçlerinde hukuki destek",
-    content: "Dürüstlük, şeffaflık ve müşteri memnuniyeti önceliklerimizdir.",
+    icon: Building2,
   },
   {
     id: "is-sosyal-hukuku",
     title: "İş Hukuku & Sosyal Güvenlik Hukuku",
     description:
       "İşçi-işveren ilişkileri ve sosyal güvenlik konularında danışmanlık",
-    content:
-      "2005 yılında küçük bir ofiste başladık, bugün global bir şirketiz.",
+    icon: Briefcase,
   },
   {
     id: "ceza-hukuku",
     title: "Ceza Hukuku",
     description: "Ceza davalarında savunma ve danışmanlık hizmetleri",
-    content: "Uzman kadromuzla size en iyi hizmeti sunuyoruz.",
+    icon: Gavel,
   },
   {
     id: "bilisim-eticaret-hukuku",
     title: "Bilişim & E-ticaret Hukuku",
     description: "Dijital dünyada hukuki sorunlara çözümler",
-    content:
-      "Çevre dostu projelerle sürdürülebilir bir gelecek için çalışıyoruz.",
+    icon: Globe,
   },
   {
     id: "gumruk-hukuku",
     title: "Gümrük Hukuku",
     description: "Gümrük işlemleri ve uyuşmazlıklarında hukuki destek",
-    content: "Sorularınız için her zaman buradayız.",
+    icon: Package,
+  },
+  {
+    id: "Aile Hukuku",
+    title: "Aile Hukuku",
+    description: "Boşanma nafaka ve miras ilişkilerinde hukuki danışmanlık.",
+    icon: Scale,
   },
 ];
 
@@ -112,23 +126,31 @@ export default function AboutPage() {
             </p>
           </div>
         </div>
-        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 ">
+
+        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-12 relative">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             {aboutCards.map((card) => (
               <Link
                 href={`/hizmetlerimiz/${card.id}`}
                 key={card.id}
-                className=" transition-transform delay-75 hover:scale-105"
+                className="transition-transform delay-75 hover:scale-105"
               >
-                <Card className="h-full border-none bg-gray-50 shadow-gray-50 hover:bg-green-950 hover:text-white delay-75">
-                  <CardHeader>
-                    <CardTitle>{card.title}</CardTitle>
-                    {card.description}
-                  </CardHeader>
-                  <CardContent>
-                    <p>{card.content}</p>
-                  </CardContent>
-                </Card>
+                <div className="bg-gray-50 rounded-lg overflow-hidden transition-transform duration-300 ease-in-out transform hover:scale-105 w-84 h-48">
+                  <div className="p-5">
+                    <div className="flex items-center mb-4">
+                      <div className="flex-shrink-0 mr-4">
+                        <div className="flex items-center justify-center h-10 w-10 rounded-md bg-green-950 text-white">
+                          <card.icon className="h-6 w-6" aria-hidden="true" />
+                        </div>
+                      </div>
+                      <h3 className="text-xl font-bold text-gray-900">
+                        {card.title}
+                      </h3>
+                    </div>
+                    <br />
+                    <p className="text-sm text-gray-600">{card.description}</p>
+                  </div>
+                </div>
               </Link>
             ))}
           </div>

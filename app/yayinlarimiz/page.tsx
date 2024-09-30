@@ -9,14 +9,16 @@ const aboutCards = [
     id: "yayin-1",
     title: "Kamulaştırma Davasının Koşulları ve Yasal Süreci",
     description: "Borç tahsilatı ve iflas süreçlerinde hukuki destek",
-    content: "Müşterilerimize en iyi hizmeti sunmak için çalışıyoruz.",
+    content:
+      "Kamulaştırma, kamu yararının gerektirdiği durumlarda, taşınmaz malların bedelinin ödenerek devlet veya kamu tüzel kişileri tarafınd...",
     imageUrl: "/kütüphane.avif", // Görsel ekledim
   },
   {
     id: "yayin-2",
     title: "Tasarrufun İptali Davasının Yasal Koşulları",
     description: "Her türlü sözleşme hazırlama ve danışmanlık hizmetleri",
-    content: "Sektörümüzde lider konuma gelmeyi hedefliyoruz.",
+    content:
+      "Tasarrufun iptali davası, borçlunun malvarlığını üçüncü kişilere devretmesi veya zarara yol açan tasarruf işlemlerinin, alaca...",
     imageUrl: "/discekim.jpg", // Görsel ekledim
   },
   {
@@ -24,7 +26,8 @@ const aboutCards = [
     title: "Tutuklama Tedbirinin Koşulları ve Tutuklulukta Süre",
     description:
       "Şirket kuruluşu, birleşme ve satın alma süreçlerinde hukuki destek",
-    content: "Dürüstlük, şeffaflık ve müşteri memnuniyeti önceliklerimizdir.",
+    content:
+      "Tutuklama, ceza muhakemesi sürecinde sanık veya şüphelinin özgürlüğünü en ağır şekilde sınırlayan koruma tedbiridir. Tutuklama kararı, sad...",
     imageUrl: "/hukuk.jpg", // Görsel ekledim
   },
 ];
@@ -110,9 +113,8 @@ export default function Yayinlarimiz() {
                     <div className="flex-1 p-6">
                       <CardHeader>
                         <CardTitle>{card.title}</CardTitle>
-                        <p>{card.description}</p>
                       </CardHeader>
-                      <CardContent>
+                      <CardContent className="text-gray-600">
                         <p>{card.content}</p>
                       </CardContent>
                     </div>
