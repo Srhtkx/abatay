@@ -25,22 +25,37 @@ const cardData = {
     whyUs: "Tutukluluk Süreleri",
     contactUs:
       "Anayasa Mahkemesi ve Avrupa İnsan Hakları Mahkemesi (AİHM), tutukluluk sürelerinin uzunluğu ve tutuklama tedbirinin uygulanmasına ilişkin önemli kriterler ortaya koymuştur. AİHM, tutukluluk süresinin makul olup olmadığının her somut olayın özelliklerine göre değerlendirilmesi gerektiğini belirtmiş olup uzun tutukluluk süreleri, makul sürede yargılanma hakkının ihlali olarak değerlendirilebilir.",
+    baslik: "Borçlunun Aciz Hali :",
+    baslik1: "Tasarruf İşlemi :",
+    baslik3: "Zarar Şartı :",
+    baslik4: "Aciz Vesikası :",
+    baslik5: "Dava Süreci :",
+    sonuc:
+      "Sonuç Olarak; Sonuç olarak; tutuklama tedbiri, bireyin özgürlüğünü ciddi şekilde kısıtladığı için yalnızca yasal koşullar altında ve belirli sürelerle uygulanmalıdır. Kuvvetli suç şüphesinin varlığı, tutuklama nedenlerinin bulunması ve ölçülülük ilkesi, tutuklama kararı verilmesinde temel şartlardır. Ayrıca soruşturma ve kovuşturma evresinde tutukluluk sürelerinin makul olması, hukukun üstünlüğü ve insan hakları açısından büyük önem taşımaktadır. Anayasa Mahkemesi ve AİHM kararları, bu konuda yol gösterici niteliktedir ve tutuklama tedbirinin uygulanmasında dikkate alınmalıdır.",
   },
   "yayin-2": {
-    mainTitle: "Sözleşmeler Hukuku Nedir ?",
+    mainTitle: "Tasarrufun İptali Davasının Yasal Koşulları",
     mainContent:
-      "Sözleşmeler hukuku, bireylerin ve işletmelerin arasındaki ilişkilerde temel bir rol oynar ve hemen hemen her yönüyle günlük yaşamın bir parçasıdır. Bu hukuk dalı, birçok farklı türde sözleşmeyi kapsar: mal satışı, hizmet sunumu, kira sözleşmeleri, iş sözleşmeleri gibi. Sözleşmeler hukuku, taraflar arasındaki ilişkileri düzenleyen bir çerçeve sunar ve bu ilişkilerin adil ve etkin bir şekilde yürütülmesini sağlamak için kurallar ve yöntemler belirler. Bu hukuki alan, sözleşmelerin oluşturulmasıyla başlar. Burada, taraflar arasındaki anlaşmanın nasıl yapıldığı, tekliflerin ve kabullerin ne şekilde gerçekleştiği, irade beyanlarının geçerliliği gibi konular ele alınır. Sözleşmenin geçerliliği, tarafların yetkisi, hile veya hata gibi unsurların varlığı gibi faktörlere dayanır. Ayrıca, sözleşmenin imzalanması, yazılı veya sözlü olarak yapılması gibi hususlar da önemlidir. Sözleşmeler hukuku ayrıca, sözleşmenin yorumlanması ve uygulanmasıyla ilgili konuları da ele alır. Sözleşmeler genellikle belirsizlikleri içerebilir veya taraflar arasında farklı yorumlara yol açabilir. Bu durumda, hukuki prensiplere ve mahkeme kararlarına dayanarak sözleşmenin ne anlama geldiği belirlenir. Ayrıca, tarafların sözleşmeyi yerine getirme yükümlülüklerini ve ihlal durumlarında uygulanacak yaptırımları düzenleyen kurallar da sözleşmeler hukuku kapsamındadır. Sonuç olarak, sözleşmeler hukuku, taraflar arasındaki sözleşmelerin oluşturulması, yorumlanması ve uygulanması süreçlerini düzenleyen kapsamlı bir hukuk alanıdır. Bu alan, iş dünyasından kişisel ilişkilere kadar geniş bir yelpazede kullanılır ve hukuki sistemin işleyişinde önemli bir rol oynar.",
-    kosul: "Tutuklama Tedbirinin Koşulları",
+      "Tasarrufun iptali davası, borçlunun malvarlığını üçüncü kişilere devretmesi veya zarara yol açan tasarruf işlemlerinin, alacaklıların haklarını korumak amacıyla iptal edilmesini sağlayan bir hukuk müessesesidir. Bu dava, borçluların mal kaçırma girişimlerine karşı alacaklıları koruma amacı taşır. Türk hukukunda, bu davanın düzenlendiği temel kaynak İcra ve İflas Kanunu madde 277 ve devamı hükümleridir. Bu hükümler, borçlunun malvarlığında yaptığı tasarrufların, alacaklıların haklarını ihlal etmesi halinde iptal edilebilmesine olanak tanır. Özellikle borçlunun ödeme güçlüğü içinde olduğu durumlarda bu davalar büyük önem taşır.",
+    kosul: "Tasarrufun İptali Davasının Yasal Koşulları",
+    baslik: "Borçlunun Aciz Hali :",
+
     kosul1:
-      "Tutuklama kararı verilebilmesi için öncelikle şüpheli veya sanığın suç işlediğine dair kuvvetli şüphenin varlığı gereklidir. Bu şüphe, somut delillere dayanmalı ve hukuki değerlendirmeyi haklı kılacak nitelikte olmalıdır. (CMK m.100/1).",
+      "Borçlunun borçlarını ödeyemeyecek durumda olması, yani ödeme güçlüğü içinde bulunması gerekir. Bu durum, aciz vesikası ile belgelenebilir.",
+    baslik1: "Tasarruf İşlemi :",
     kosul2:
       "Tutuklama kararı verilebilmesi için kuvvetli suç şüphesinin yanı sıra, CMK m.100/2’de belirtilen tutuklama nedenlerinin de bulunması gerekmektedir. Bu nedenler şunlardır:",
+    baslik3: "Zarar Şartı :",
     kosul21:
-      "Kaçma Şüphesi: Şüpheli veya sanığın kaçacağına dair somut olguların varlığı halinde tutuklama kararı verilebilir. Kaçma şüphesinin varlığı, şüpheli veya sanığın tutuklanmasını meşru kılacak derecede olmalıdır.",
+      "Borçlunun malvarlığını azaltıcı nitelikte bir tasarruf işlemi yapmış olması gereklidir. Bu işlemler, mal devri, bağış veya satış gibi işlemleri kapsayabilir.",
+    baslik4: "Aciz Vesikası :",
     kosul22:
-      "Delilleri Karartma Tehlikesi: Şüpheli veya sanığın delilleri yok etme, gizleme veya değiştirme ihtimalinin bulunduğu durumlarda tutuklama kararı verilebilir. Delil karartma tehlikesi somut olayla desteklenmelidir.",
+      " Borçlunun yaptığı tasarruf işleminin, alacaklının alacağına kavuşmasını engelleyecek veya zorlaştıracak nitelikte olması gereklidir.",
+    baslik5: "Dava Süreci :",
     kosul23:
       "Tutuklama tedbiri uygulanırken, ölçülülük ilkesi gözetilmelidir. Bu ilkeye göre, tutuklama tedbiri, uygulanacak diğer tedbirlerin yetersiz kaldığı durumlarda ve amaca uygun düşecek şekilde uygulanmalıdır (CMK m.100/1). Daha hafif koruma tedbirleri yeterli olabilecekse, tutuklama tedbirine başvurulmamalıdır.",
+    sonuc:
+      "Sonuç Olarak; Sonuç olarak; tutuklama tedbiri, bireyin özgürlüğünü ciddi şekilde kısıtladığı için yalnızca yasal koşullar altında ve belirli sürelerle uygulanmalıdır. Kuvvetli suç şüphesinin varlığı, tutuklama nedenlerinin bulunması ve ölçülülük ilkesi, tutuklama kararı verilmesinde temel şartlardır. Ayrıca soruşturma ve kovuşturma evresinde tutukluluk sürelerinin makul olması, hukukun üstünlüğü ve insan hakları açısından büyük önem taşımaktadır. Anayasa Mahkemesi ve AİHM kararları, bu konuda yol gösterici niteliktedir ve tutuklama tedbirinin uygulanmasında dikkate alınmalıdır.",
     whyUs:
       "Abatay & İşeri Avukatlık Bürosu'nun müvekkillerimize İcra ve İflas Hukuku kapsamında profesyonel olarak verdiğimiz başlıca hizmetlerimiz",
     contactUs:
@@ -65,6 +80,13 @@ const cardData = {
       "Abatay & İşeri Avukatlık Bürosu'nun müvekkillerimize İcra ve İflas Hukuku kapsamında profesyonel olarak verdiğimiz başlıca hizmetlerimiz",
     contactUs:
       "Her türlü sorularınız ve hizmetlerimiz hakkında bilgi almak için bizimle iletişime geçebilirsiniz.",
+    baslik: "Borçlunun Aciz Hali :",
+    baslik1: "Tasarruf İşlemi :",
+    baslik3: "Zarar Şartı :",
+    baslik4: "Aciz Vesikası :",
+    baslik5: "Dava Süreci :",
+    sonuc:
+      "Sonuç Olarak; Sonuç olarak; tutuklama tedbiri, bireyin özgürlüğünü ciddi şekilde kısıtladığı için yalnızca yasal koşullar altında ve belirli sürelerle uygulanmalıdır. Kuvvetli suç şüphesinin varlığı, tutuklama nedenlerinin bulunması ve ölçülülük ilkesi, tutuklama kararı verilmesinde temel şartlardır. Ayrıca soruşturma ve kovuşturma evresinde tutukluluk sürelerinin makul olması, hukukun üstünlüğü ve insan hakları açısından büyük önem taşımaktadır. Anayasa Mahkemesi ve AİHM kararları, bu konuda yol gösterici niteliktedir ve tutuklama tedbirinin uygulanmasında dikkate alınmalıdır.",
   },
 
   // Add more card data for other card IDs...
@@ -136,20 +158,15 @@ export default function AboutCardPage({
               <CardTitle className="text-2xl">{card.kosul} </CardTitle>
               <CardContent>
                 <p>
-                  <span className="font-bold">
-                    {" "}
-                    1.Kuvvetli Suç Şüphesinin Bulunması
-                  </span>{" "}
-                  <br />
+                  <span className="font-bold"> {card.baslik}</span> <br />
                   {card.kosul1}{" "}
                 </p>
                 <p>
                   {" "}
-                  <span className="font-bold">
-                    2.Tutuklama Nedenlerinin Varlığı
-                  </span>{" "}
-                  <br />
-                  {card.kosul2}
+                  <span className="font-bold">{card.baslik1}</span> <br />
+                  {card.baslik3}
+                  {card.kosul21}
+                  {card.baslik4}
                   <li>{card.kosul21}</li>
                   <li>{card.kosul22}</li>
                   <li>{card.kosul23} </li>
@@ -210,20 +227,10 @@ export default function AboutCardPage({
             </CardHeader>
             <CardContent className="space-y-4">
               <p>{card.contactUs}</p>
-              <p>
-                Sonuç olarak; tutuklama tedbiri, bireyin özgürlüğünü ciddi
-                şekilde kısıtladığı için yalnızca yasal koşullar altında ve
-                belirli sürelerle uygulanmalıdır. Kuvvetli suç şüphesinin
-                varlığı, tutuklama nedenlerinin bulunması ve ölçülülük ilkesi,
-                tutuklama kararı verilmesinde temel şartlardır. Ayrıca
-                soruşturma ve kovuşturma evresinde tutukluluk sürelerinin makul
-                olması, hukukun üstünlüğü ve insan hakları açısından büyük önem
-                taşımaktadır. Anayasa Mahkemesi ve AİHM kararları, bu konuda yol
-                gösterici niteliktedir ve tutuklama tedbirinin uygulanmasında
-                dikkate alınmalıdır.
-              </p>
+              <p>{card.sonuc}</p>
             </CardContent>
           </Card>
+          <br />
         </div>
       </div>
     </div>

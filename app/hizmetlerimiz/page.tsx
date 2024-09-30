@@ -18,46 +18,51 @@ const aboutCards = [
   {
     id: "icra-iflas-hukuk",
     title: "İcra & İflas Hukuku",
-    description: "    Borç tahsilatı ve iflas süreçlerinde hukuki destek",
+    description:
+      " İcra & İflas Hukuku'nda size özel, hızlı ve etkin çözümlerle destek sağlıyoruz.",
 
     icon: Scale,
   },
   {
     id: "sozlesmeler-hukuku",
     title: "Sözleşmeler Hukuku",
-    description: "Her türlü sözleşme hazırlama ve danışmanlık hizmetleri",
+    description:
+      "Sözleşmeler Hukuku'nda, anlaşmalarınızın güvenli ve sağlam temeller üzerine inşa edilmesini sağlıyoruz.",
     icon: FileText,
   },
   {
     id: "ticaret-sirketler-hukuku",
     title: "Ticaret & Şirketler Hukuku",
     description:
-      "Şirket kuruluşu, birleşme ve satın alma süreçlerinde hukuki destek",
+      "Şirketler Hukuku'nda, işletmenizin hukuki yapılanmasını güçlendirerek sürdürülebilir başarıya katkıda bulunuyoruz.",
     icon: Building2,
   },
   {
     id: "is-sosyal-hukuku",
     title: "İş Hukuku & Sosyal Güvenlik Hukuku",
     description:
-      "İşçi-işveren ilişkileri ve sosyal güvenlik konularında danışmanlık",
+      "İş ve Sosyal Güvenlik Hukuku'nda, çalışma yaşamınızı güvence altına alıyoruz.",
     icon: Briefcase,
   },
   {
     id: "ceza-hukuku",
     title: "Ceza Hukuku",
-    description: "Ceza davalarında savunma ve danışmanlık hizmetleri",
+    description:
+      "Ceza Hukuku'nda, sizlere güçlü ve etkili destek sağlayarak, haklarınızın kararlı bir şekilde savunulmasını üstleniyoruz.",
     icon: Gavel,
   },
   {
     id: "bilisim-eticaret-hukuku",
     title: "Bilişim & E-ticaret Hukuku",
-    description: "Dijital dünyada hukuki sorunlara çözümler",
+    description:
+      "Bilişim ve E-Ticaret Hukuku'nda, dijital işlerinizi güvence altına alıyoruz.",
     icon: Globe,
   },
   {
     id: "gumruk-hukuku",
     title: "Gümrük Hukuku",
-    description: "Gümrük işlemleri ve uyuşmazlıklarında hukuki destek",
+    description:
+      "Gümrük Hukuku'nda, uluslararası ticaret işlemlerinizi kolaylaştıracak güvenilir rehberlik ve destek sağlıyoruz.",
     icon: Package,
   },
   {

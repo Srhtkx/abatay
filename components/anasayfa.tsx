@@ -48,17 +48,17 @@ export default function Navbar() {
                 <Link
                   style={{
                     fontFamily: "Cormorant_Garamond",
-                    letterSpacing: "8px",
+                    letterSpacing: "9px",
                   }}
                   href="/"
-                  className="text-xl font-medium text-white no-underline"
+                  className="text-xl text-white no-underline"
                 >
                   ABATAY & İŞERİ
                 </Link>
                 <Link
                   style={{
                     fontFamily: "Cormorant_Garamond",
-                    letterSpacing: "4px",
+                    letterSpacing: "5px",
                   }}
                   href="/"
                   className="text-sm text-white tracking-wider no-underline"
@@ -69,7 +69,7 @@ export default function Navbar() {
             </div>
           </div>
           <div className="hidden md:block font-serif">
-            <div className="ml-10 text-white flex items-baseline space-x-6">
+            <div className="ml-10 text-white flex items-baseline space-x-5">
               <NavItem
                 href="/hakkimizda"
                 text="Hakkımızda"

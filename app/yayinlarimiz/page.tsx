@@ -99,7 +99,7 @@ export default function Yayinlarimiz() {
                 key={card.id}
                 className=" transition-transform delay-75 hover:scale-105"
               >
-                <Card className="h-full border-none bg-gray-50 shadow-gray-50 hover:bg-green-950 hover:text-white delay-75">
+                <Card className="h-full border-none bg-gray-50 shadow-gray-50 hover:bg-green-950 hover:text-white">
                   <div className="flex flex-col md:flex-row">
                     <div className="w-full md:w-1/3">
                       <Image
@@ -110,7 +110,7 @@ export default function Yayinlarimiz() {
                         className="object-cover h-full w-full rounded-l-lg"
                       />
                     </div>
-                    <div className="flex-1 p-6">
+                    <div className="flex-1">
                       <CardHeader>
                         <CardTitle>{card.title}</CardTitle>
                       </CardHeader>
