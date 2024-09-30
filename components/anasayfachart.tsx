@@ -95,7 +95,7 @@ export default function Component() {
 
   return (
     <Carousel
-      className="w-full max-w-5xl"
+      className="w-full max-w-6xl"
       opts={{
         loop: true,
       }}
@@ -103,7 +103,7 @@ export default function Component() {
     >
       <CarouselContent>
         {hukukAlanlari.map((alan, index) => (
-          <CarouselItem key={index} className="pl-4 md:basis-1/2 lg:basis-1/3">
+          <CarouselItem key={index} className=" md:basis-1/2 lg:basis-1/3">
             <Card className="h-full opacity-90">
               <CardHeader>
                 <CardTitle className="flex items-center">

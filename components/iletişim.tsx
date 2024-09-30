@@ -6,6 +6,7 @@ import { Textarea } from "@/components/ui/textarea";
 import { Label } from "@/components/ui/label";
 import { MapPinIcon, PhoneIcon, MailIcon } from "lucide-react";
 import Link from "next/link";
+import { FaInstagram, FaXTwitter, FaLinkedin } from "react-icons/fa6";
 
 export default function ContactPage() {
   const [name, setName] = useState("");
@@ -50,6 +51,32 @@ export default function ContactPage() {
                     info@abatayiseri.av.tr
                   </p>
                 </div>
+              </div>
+              <div className="flex space-x-6 mb-4 md:mb-0">
+                <a
+                  href="https://www.instagram.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="transition duration-300 transform hover:scale-110 hover:text-pink-500"
+                >
+                  <FaInstagram size={28} />
+                </a>
+                <a
+                  href="https://www.twitter.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="transition duration-300 transform hover:scale-110 hover:text-white hover:bg-black"
+                >
+                  <FaXTwitter size={28} />
+                </a>
+                <a
+                  href="https://www.linkedin.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="transition duration-300 transform hover:scale-110 hover:text-blue-600"
+                >
+                  <FaLinkedin size={28} />
+                </a>
               </div>
             </div>
             {/* Google Maps */}

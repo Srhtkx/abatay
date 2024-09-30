@@ -34,34 +34,6 @@ const Footer = () => {
             <p className=" mt-2 text-gray-400">
               Hukuki çözümler ve danışmanlık hizmetleri
             </p>
-
-            {/* Sosyal Medya İkonları */}
-            <div className="flex justify-center mt-6 space-x-6">
-              <a
-                href="https://www.instagram.com"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="transition duration-300 transform hover:scale-110 hover:text-pink-500"
-              >
-                <FaInstagram size={28} />
-              </a>
-              <a
-                href="https://www.twitter.com"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="transition duration-300 transform hover:scale-110 hover:text-black hover:bg-white"
-              >
-                <FaXTwitter size={28} />
-              </a>
-              <a
-                href="https://www.linkedin.com"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="transition duration-300 transform hover:scale-110 hover:text-blue-600"
-              >
-                <FaLinkedin size={28} />
-              </a>
-            </div>
           </div>
 
           {/* Yayınlarımız Alanları */}
@@ -180,8 +152,34 @@ const Footer = () => {
         </div>
 
         {/* Telif Hakkı */}
-        <div className="mt-10 text-center text-gray-500">
-          <p>
+        <div className="mt-12 pt-8 border-t border-white flex flex-col md:flex-row justify-between items-center">
+          <div className="flex space-x-6 mb-4 md:mb-0">
+            <a
+              href="https://www.instagram.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="transition duration-300 transform hover:scale-110 hover:text-pink-500"
+            >
+              <FaInstagram size={28} />
+            </a>
+            <a
+              href="https://www.twitter.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="transition duration-300 transform hover:scale-110 hover:text-black hover:bg-white"
+            >
+              <FaXTwitter size={28} />
+            </a>
+            <a
+              href="https://www.linkedin.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="transition duration-300 transform hover:scale-110 hover:text-blue-600"
+            >
+              <FaLinkedin size={28} />
+            </a>
+          </div>
+          <p className="text-sm text-center md:text-right">
             &copy; 2024 Abatay & İşeri Avukatlık Bürosu. Tüm Hakları Saklıdır.
           </p>
         </div>

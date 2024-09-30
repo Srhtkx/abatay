@@ -8,7 +8,7 @@ import CN from "@/public/kütüphane.avif";
 
 export default function Hakkimizda() {
   return (
-    <div className="font-serif">
+    <div className="font-serif bg-regal-blue bg-opacity-5">
       <div className="min-h-screen ">
         <div className="relative h-72 bg-gray-500">
           <Image
@@ -87,8 +87,9 @@ export default function Hakkimizda() {
             </p>
           </div>
         </div>
-        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-2">
-          <Card className="mb-8 bg-gray-50 border-none shadow-gray-50 ">
+
+        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-2 ">
+          <Card className="mb-8 bg-gray-50 border-none shadow-none bg-transparent ">
             <CardContent className="p-6 flex flex-col md:flex-row items-center">
               <div className="md:w-1/2 mb-6 md:mb-0 md:pr-6">
                 <h2 className="text-2xl font-bold text-green-950 mb-4">
@@ -116,7 +117,7 @@ export default function Hakkimizda() {
           </Card>
 
           <div className="grid md:grid-cols-3 gap-6 mb-8">
-            <Card className="bg-gray-50 border-none shadow-gray-50">
+            <Card className="bg-gray-50  border-none shadow-none bg-transparent ">
               <CardContent className="p-6 flex flex-col items-center">
                 <ScaleIcon className="h-12 w-12 text-green-950 mb-4" />
                 <h3 className="text-xl font-semibold text-green-950 mb-2">
@@ -132,7 +133,7 @@ export default function Hakkimizda() {
               </CardContent>
             </Card>
 
-            <Card className="bg-gray-50 border-none  shadow-gray-50">
+            <Card className="  border-none shadow-none bg-transparent ">
               <CardContent className="p-6 flex flex-col items-center">
                 <ShieldIcon className="h-12 w-12 text-green-950 mb-4" />
                 <h3 className="text-xl font-semibold text-green-950 mb-2">
@@ -147,7 +148,7 @@ export default function Hakkimizda() {
               </CardContent>
             </Card>
 
-            <Card className="bg-gray-50 border-none shadow-gray-50">
+            <Card className=" border-none shadow-none bg-transparent ">
               <CardContent className="p-6 flex flex-col items-center">
                 <BookOpenIcon className="h-12 w-12 text-green-950 mb-4" />
                 <h3 className="text-xl font-semibold text-green-950 mb-2">
@@ -162,7 +163,7 @@ export default function Hakkimizda() {
               </CardContent>
             </Card>
           </div>
-          <Card className="mb-8 bg-gray-50 border-none shadow-gray-50 ">
+          <Card className="mb-8 border-none shadow-none bg-transparent  ">
             <CardContent className="p-6 flex flex-col md:flex-row items-center">
               <div className="md:w-1/2">
                 <Image
