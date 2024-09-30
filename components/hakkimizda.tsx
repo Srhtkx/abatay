@@ -151,6 +151,7 @@ export default function Hakkimizda() {
                 />
               </div>
               <div className="md:w-1/2 mb-6 md:mb-0 md:pr-6">
+                <br />
                 <h2 className="text-2xl font-bold text-green-950 mb-4">
                   Neden Biz ?
                 </h2>
