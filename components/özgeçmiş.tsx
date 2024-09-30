@@ -73,7 +73,7 @@ export default function Ozgecmis({ description }: any) {
                     <span className="font-bold">Yüksek Lisans Tezi: </span>
                     {description.yuksek}
                   </li>
-                  <br />
+
                   <li>{description.calismalar} </li>
                   <li>{description.calismaşar1} </li>
                   <li>{description.calismaşar2} </li>
