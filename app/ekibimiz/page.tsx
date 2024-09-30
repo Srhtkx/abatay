@@ -114,7 +114,7 @@ export default function TeamCards() {
                   <h3 className="text-2xl text-green-950 font-bold text-center mb-2">
                     {member.name}
                   </h3>
-                  <p className="text-sm text-green-900 text-center">
+                  <p className="text-sm text-gray-600 text-center">
                     {member.bio}
                   </p>
                 </CardContent>

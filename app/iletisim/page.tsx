@@ -26,6 +26,7 @@ export default function Iletşim() {
           </p>
         </div>
       </div>
+      <br />
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-12 relative">
         {/* Başlık */}
         <h2 className="flex gap-3 items-center text-xl md:text-2xl">

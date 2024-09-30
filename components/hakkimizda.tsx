@@ -29,31 +29,7 @@ export default function Hakkimizda() {
           </div>
         </div>
         <br />
-        {/* <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-          
-          <h2 className="flex gap-3 items-center text-xl md:text-2xl">
-            <span className="text-green-900 font-semibold uppercase tracking-widest text-lg md:text-xl">
-              ABATAY & İŞERİ
-            </span>
-            <GoLaw className="text-gray-700 text-lg md:text-xl" />
-            <span className="text-gray-600 font-light text-sm md:text-base">
-              Avukatlık Bürosu
-            </span>
-          </h2>
 
-       
-          <h1 className="text-4xl md:text-4xl font-serif text-gray-900 mt-6 mb-4 tracking-wide">
-            Çalışma Alanlarımız
-          </h1>
-
-   
-          <div className="w-12 md:w-16 h-1 bg-green-900 mb-6"></div>
-
-          <p className="text-gray-500 italic leading-relaxed">
-            Müvekkillerimizin talepleri doğrultusunda, konusunda uzman
-            avukatlarımız ile hizmet verdiğimiz çalışma alanlarımız;
-          </p>
-        </div>  */}
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-12 relative">
           {/* Başlık */}
           <h2 className="flex gap-3 items-center text-xl md:text-2xl">
@@ -123,7 +99,7 @@ export default function Hakkimizda() {
                 <h3 className="text-xl font-semibold text-green-950 mb-2">
                   Misyonumuz
                 </h3>
-                <p className="text-green-900 text-center">
+                <p className="text-gray-600 text-center">
                   Müvekkillerimizin hayatlarını kolaylaştırmak, haklarını
                   savunmak ve adalete ulaşmalarına yardımcı olmak misyonumuzun
                   temelini oluşturmaktadır. Hukuki süreçlerin karmaşıklığı
@@ -139,7 +115,7 @@ export default function Hakkimizda() {
                 <h3 className="text-xl font-semibold text-green-950 mb-2">
                   Vizyonumuz
                 </h3>
-                <p className="text-green-900 text-center">
+                <p className="text-gray-600 text-center">
                   Adalet, dürüstlük, müvekkil memnuniyeti ve uzmanlık ofisimizin
                   temel değerleridir. Her bir müvekkilimize özel ve dikkatli bir
                   yaklaşım benimserken, etik değerlere bağlılığımızı
@@ -154,7 +130,7 @@ export default function Hakkimizda() {
                 <h3 className="text-xl font-semibold text-green-950 mb-2">
                   Değerlerimiz
                 </h3>
-                <p className="text-green-900 text-center">
+                <p className="text-gray-600 text-center">
                   Hukuki alanındaki sürekli değişimlere ayak uydurarak,
                   müvekkillerimize en güncel ve yenilikçi çözümleri sunmak için
                   çaba gösteriyoruz. Yaratıcı düşünceyi teşvik ediyor ve her
@@ -178,7 +154,7 @@ export default function Hakkimizda() {
                 <h2 className="text-2xl font-bold text-green-950 mb-4">
                   Neden Biz ?
                 </h2>
-                <p className="text-green-900">
+                <p className="text-gray-600">
                   Abatay & İşeri Avukatlık Bürosu olarak, hukuki meselelerinizi
                   sadece profesyonel bir bakış açısıyla değil, aynı zamanda
                   kişisel bir ilgi ve özenle ele alıyoruz. Müvekkillerimizin her
@@ -192,22 +168,6 @@ export default function Hakkimizda() {
             </CardContent>
           </Card>
 
-          {/* <Card className="bg-gray-50 border-none shadow-gray-50">
-          <CardContent className="p-6">
-            <h2 className="text-2xl font-bold text-green-950 text-center mb-4">
-              Neden Biz?
-            </h2>
-            <p className="list-disc list-inside text-green-900 space-y-2">
-              Abatay & İşeri Avukatlık Bürosu olarak, hukuki meselelerinizi
-              sadece profesyonel bir bakış açısıyla değil, aynı zamanda kişisel
-              bir ilgi ve özenle ele alıyoruz. Müvekkillerimizin her biriyle
-              kurduğumuz güçlü ilişkiler, bizi hukuk alanında tercih edilen bir
-              ortak yapar. İstanbul’un kalbindeki ofisimizden, geniş hizmet
-              yelpazemizle, her bir müvekkilimizin benzersiz ihtiyaçlarını
-              karşılayacak şekilde özelleştirilmiş hizmetler sunuyoruz.
-            </p>
-          </CardContent>
-        </Card> */}
           <br />
         </div>
       </div>
