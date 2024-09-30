@@ -8,59 +8,65 @@ import Image from "next/image";
 export default function Anasayfa() {
   const services = [
     {
-      name: "Aile Hukuku",
+      name: "İcra & iflas Hukuku",
       description: "Boşanma, velayet ve nafaka davalarında uzman desteği.",
       icon: Users,
-      link: "/hizmetler/aile-hukuku",
+      link: "/hizmetlerimiz/icra-iflas-hukuk",
     },
     {
-      name: "Ticaret Hukuku",
+      name: "Sözleşmeler Hukuku",
       description: "Şirket kurulumları, sözleşmeler ve ticari anlaşmazlıklar.",
       icon: Scale,
-      link: "/hizmetler/ticaret-hukuku",
+      link: "/hizmetlerimiz/sozlesmeler-hukuku",
     },
     {
       name: "Ceza Hukuku",
       description: "Ceza davalarında savunma ve müdafilik hizmetleri.",
       icon: BookOpen,
-      link: "/hizmetler/ceza-hukuku",
+      link: "/hizmetlerimiz/ceza-hukuku",
     },
     {
-      name: "İş Hukuku",
+      name: "İş Hukuku & Sosyal Güvenlik Hukuku",
       description: "İşçi-işveren anlaşmazlıkları ve iş sözleşmeleri.",
       icon: Scale,
-      link: "/hizmetler/is-hukuku",
+      link: "/hizmetlerimiz/is-sosyal-hukuku",
     },
     {
-      name: "Gayrimenkul Hukuku",
+      name: "Bilişim & E-ticaret Hukuku",
       description: "Emlak alım-satım işlemleri ve kira anlaşmazlıkları.",
       icon: Users,
-      link: "/hizmetler/gayrimenkul-hukuku",
+      link: "/hizmetlerimiz/bilisim-eticaret-hukuku",
     },
     {
-      name: "Fikri Mülkiyet Hukuku",
+      name: "Ticaret & Şirketler Hukuku",
       description: "Patent, marka ve telif hakları konularında danışmanlık.",
       icon: Scale,
-      link: "/hizmetler/fikri-mulkiyet-hukuku",
+      link: "/hizmetlerimiz/fikri-mulkiyet-hukuku",
     },
     {
       name: "İdare Hukuku",
       description: "Kamu kurumlarıyla ilgili hukuki süreçlerde destek.",
       icon: BookOpen,
-      link: "/hizmetler/idare-hukuku",
+      link: "/hizmetlerimiz/idare-hukuku",
     },
     {
-      name: "Borçlar Hukuku",
+      name: "Gümrük Hukuku",
       description:
         "Sözleşme hazırlama ve borç ilişkilerinde hukuki danışmanlık.",
       icon: Scale,
-      link: "/hizmetler/borclar-hukuku",
+      link: "/hizmetlerimiz/gumruk-hukuku",
+    },
+    {
+      name: "Aile Hukuku",
+      description: "Boşanma nafaka ve miras ilişkilerinde hukuki danışmanlık.",
+      icon: Scale,
+      link: "/hizmetlerimiz/borclar-hukuku",
     },
   ];
 
   return (
     <div className="font-serif">
-      <div className="relative h-[90vh] text-white overflow-hidden">
+      <div className="relative h-[90vh] text-white overflow-hidden ">
         <Image
           src="/scale-image.jpg"
           layout="fill"

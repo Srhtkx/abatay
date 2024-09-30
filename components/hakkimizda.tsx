@@ -95,7 +95,7 @@ export default function Hakkimizda() {
                 <h2 className="text-2xl font-bold text-green-950 mb-4">
                   ABATAY & İŞERİ AVUKATLIK BÜROSU
                 </h2>
-                <p className="text-green-900">
+                <p className="text-gray-600">
                   ABATAY & İŞERİ AVUKATLIK BÜROSU olarak; deneyimli ve dinamik
                   avukat kadromuzla müvekkillerimize geniş bir yelpazede hukuki
                   hizmet sunmaktayız. Her bir avukatımız, farklı hukuki uzmanlık

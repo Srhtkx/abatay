@@ -18,7 +18,7 @@ export default function ContactPage() {
   )}&body=${encodeURIComponent(`İsim: ${name}\n\nMesaj: ${message}`)}`;
 
   return (
-    <div className="bg-gray-50">
+    <div className="">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="flex flex-col md:flex-row gap-8 p-4">
           {/* Sol taraf - İletişim Bilgileri ve Harita */}

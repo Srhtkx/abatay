@@ -6,6 +6,7 @@ import { Briefcase, Scale, Key, Building2 } from "lucide-react";
 import Image from "next/image";
 import Resimm from "@/public/download.webp";
 import { GoLaw } from "react-icons/go";
+import Link from "next/link";
 
 const cardData = {
   "icra-iflas-hukuk": {
@@ -213,9 +214,11 @@ export default function AboutCardPage({
             </CardHeader>
             <CardContent className="space-y-4">
               <p>{card.contactUs}</p>
-              <Button className="bg-white flex mx-auto px-12 text-green-950 rounded-md text-lg font-semibold hover:bg-green-800 hover:text-white">
-                Bizimle İletişime Geçin
-              </Button>
+              <Link href="/iletisim">
+                <Button className="bg-white flex mx-auto px-12 text-green-950 rounded-md text-lg font-semibold hover:bg-green-800 hover:text-white">
+                  Bizimle İletişime Geçin
+                </Button>
+              </Link>
             </CardContent>
           </Card>
           <br />
