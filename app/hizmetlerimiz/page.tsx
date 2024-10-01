@@ -1,12 +1,12 @@
 "use client";
 import Link from "next/link";
-
+import { GiScales } from "react-icons/gi";
 import Resimm from "@/public/kitap.webp";
 import Image from "next/image";
 import { GoLaw } from "react-icons/go";
+import { PiScalesFill } from "react-icons/pi";
 import {
   Scale,
-  FileText,
   Building2,
   Briefcase,
   Gavel,
@@ -21,14 +21,14 @@ const aboutCards = [
     description:
       " İcra & İflas Hukuku'nda size özel, hızlı ve etkin çözümlerle destek sağlıyoruz.",
 
-    icon: Scale,
+    icon: GiScales,
   },
   {
     id: "sozlesmeler-hukuku",
     title: "Sözleşmeler Hukuku",
     description:
       "Sözleşmeler Hukuku'nda, anlaşmalarınızın güvenli ve sağlam temeller üzerine inşa edilmesini sağlıyoruz.",
-    icon: FileText,
+    icon: PiScalesFill,
   },
   {
     id: "ticaret-sirketler-hukuku",
@@ -144,7 +144,7 @@ export default function AboutPage() {
                   <div className="p-5">
                     <div className="flex items-center mb-4">
                       <div className="flex-shrink-0 mr-4">
-                        <div className="flex items-center justify-center h-10 w-10 rounded-md bg-green-950 text-white">
+                        <div className="flex items-center justify-center h-10 w-10 rounded-md bg-transparent text-green-900 ">
                           <card.icon className="h-6 w-6" aria-hidden="true" />
                         </div>
                       </div>

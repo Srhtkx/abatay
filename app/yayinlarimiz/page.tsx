@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import Resimm from "@/public/kitap.webp";
+import Resimm from "@/public/kütüphane.avif";
 import Image from "next/image";
 import { GoLaw } from "react-icons/go";
 
@@ -43,7 +43,7 @@ export default function Yayinlarimiz() {
             layout="fill"
             objectFit="cover"
             className="mix-blend-overlay"
-            objectPosition="top"
+            objectPosition="bottom"
           />
           <div className="absolute inset-0 bg-green-950 bg-opacity-75" />
           <div className="absolute inset-0 flex flex-col items-center justify-center">
