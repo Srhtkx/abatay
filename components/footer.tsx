@@ -44,52 +44,52 @@ const Footer = () => {
               <div className="">
                 <ul className="text-gray-400 space-y-2">
                   <li>
-                    <a
-                      href="#"
+                    <Link
+                      href="hizmetlerimiz/icra-iflas-hukuk"
                       className="hover:text-white transition duration-300"
                     >
                       İcra & İflas Hukuku
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a
-                      href="#"
+                    <Link
+                      href="hizmetlerimiz/ticaret-sirketler-hukuku"
                       className="hover:text-white transition duration-300"
                     >
                       Ticaret & Şirketler Hukuku
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a
-                      href="#"
+                    <Link
+                      href="hizmetlerimiz/is-sosyal-hukuku"
                       className="hover:text-white transition duration-300"
                     >
                       İş & Sosyal Güvenlik Hukuku
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a
-                      href="#"
+                    <Link
+                      href="hizmetlerimiz/ceza-hukuku"
                       className="hover:text-white transition duration-300 "
                     >
                       Ceza Hukuku
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a
-                      href="#"
+                    <Link
+                      href="hizmetlerimiz/bilisim-eticaret-hukuku"
                       className="hover:text-white transition duration-300"
                     >
                       Bilişim & E-Ticaret Hukuku
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a
-                      href="#"
+                    <Link
+                      href="hizmetlerimiz/gumruk-hukuku"
                       className="hover:text-white transition duration-300"
                     >
                       Gümrük Hukuku
-                    </a>
+                    </Link>
                   </li>
                 </ul>
               </div>
@@ -102,7 +102,7 @@ const Footer = () => {
                 <ul className="text-gray-400 space-y-2">
                   <li>
                     <Link
-                      href="#"
+                      href="yayinlarimiz/yayin-2"
                       className="hover:text-white transition duration-300"
                     >
                       Tasarrufun İptali Davasının Yasal Koşulları
@@ -110,18 +110,18 @@ const Footer = () => {
                   </li>
                   <li>
                     <Link
-                      href="#"
+                      href="yayinlarimiz/yayin-1"
                       className="hover:text-white transition duration-300"
                     >
-                      İş Hukukunda Yeni Düzenlemeler
+                      Kamulaştırma Davasının Koşulları ve Yasal Süreci
                     </Link>
                   </li>
                   <li>
                     <Link
-                      href="/yayinlarimiz/1"
+                      href="yayinlarimiz/yayin-3"
                       className="hover:text-white transition duration-300"
                     >
-                      Kişisel Verilerin Korunması Kanununun Etkileri
+                      Tutuklama Tedbirinin Koşulları ve Tutuklulukta Süre
                     </Link>
                   </li>
                   <li>
@@ -155,7 +155,7 @@ const Footer = () => {
         <div className="mt-12 pt-8 border-t border-white flex flex-col md:flex-row justify-between items-center">
           <div className="flex space-x-6 mb-4 md:mb-0">
             <a
-              href="https://www.instagram.com"
+              href="https://www.instagram.com/abatayiseri/"
               target="_blank"
               rel="noopener noreferrer"
               className="transition duration-300 transform hover:scale-110 hover:text-pink-500"
@@ -163,7 +163,7 @@ const Footer = () => {
               <FaInstagram size={28} />
             </a>
             <a
-              href="https://www.twitter.com"
+              href="https://x.com/abatayiseri"
               target="_blank"
               rel="noopener noreferrer"
               className="transition duration-300 transform hover:scale-110 hover:text-black hover:bg-white"
@@ -171,7 +171,7 @@ const Footer = () => {
               <FaXTwitter size={28} />
             </a>
             <a
-              href="https://www.linkedin.com"
+              href="https://www.linkedin.com/company/abatayi%CC%87seri/posts/?feedView=all"
               target="_blank"
               rel="noopener noreferrer"
               className="transition duration-300 transform hover:scale-110 hover:text-blue-600"
