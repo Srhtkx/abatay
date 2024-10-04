@@ -22,7 +22,7 @@ const aboutCards = [
     imageUrl: "/discekim.jpg", // Görsel ekledim
   },
   {
-    id: "tutuklanma-kosul",
+    id: "yayin-3",
     title: "Tutuklama Tedbirinin Koşulları ve Tutuklulukta Süre",
     description:
       "Şirket kuruluşu, birleşme ve satın alma süreçlerinde hukuki destek",

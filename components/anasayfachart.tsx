@@ -99,7 +99,7 @@ export default function Component() {
         {hukukAlanlari.map((alan, index) => (
           <CarouselItem key={index} className="md:basis-1/2 lg:basis-1/3">
             <Link href={alan.link} className="block h-full">
-              <Card className="bg-white opacity-90 shadow-none rounded-lg overflow-hidden transition-transform duration-300 ease-in-out transform hover:scale-105 h-full">
+              <Card className="bg-white opacity-90 shadow-none rounded-lg overflow-hidden transition-transform duration-300 ease-in-out transform h-full">
                 <CardContent className="p-4">
                   <div className="flex items-center mb-4">
                     <div className="flex-shrink-0 mr-4">
