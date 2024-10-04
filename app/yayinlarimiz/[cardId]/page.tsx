@@ -134,12 +134,14 @@ export default function YayinDetaySayfasi({
       </div>
 
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-        <h2 className="flex items-center gap-4 text-2xl font-bold mb-6">
-          <span className="text-green-900">ABATAY & İŞERİ</span>
+        <h2 className="flex gap-4">
+          <span className="text-green-900 font-bold">ABATAY & İŞERİ</span>
           <GoLaw className="text-green-950" />
           <span>Avukatlık Bürosu</span>
         </h2>
-        <h3 className="text-3xl font-bold mb-4">Yayınlarımız</h3>
+        <br />
+        <h3 className="text-4xl ">Yayınlarımız</h3>
+        <br />
         <p className="text-gray-600 mb-8">
           Müvekkillerimizin talepleri doğrultusunda, konusunda uzman
           Avukatlarımız ile hizmet verdiğimiz çalışma alanlarımız;
