@@ -13,6 +13,7 @@ export default function Hakkimizda() {
         <div className="relative h-72 bg-gray-500">
           <Image
             src={BaslikResim}
+            priority
             alt="Hukuk bürosu ekip çalışması"
             layout="fill"
             objectFit="cover"
@@ -83,6 +84,7 @@ export default function Hakkimizda() {
               <div className="md:w-1/2">
                 <Image
                   src={Nazan}
+                  priority
                   alt="Ekip fotoğrafı"
                   width={500}
                   height={300}

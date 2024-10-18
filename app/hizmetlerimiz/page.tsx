@@ -80,6 +80,7 @@ export default function AboutPage() {
         <div className="relative h-72 bg-gray-500">
           <Image
             src={Resimm}
+            priority
             alt="Hukuk bürosu ekip çalışması"
             layout="fill"
             objectFit="cover"

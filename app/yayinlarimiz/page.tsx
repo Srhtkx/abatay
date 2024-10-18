@@ -39,6 +39,7 @@ export default function Yayinlarimiz() {
         <div className="relative h-72 bg-gray-500">
           <Image
             src={Resimm}
+            priority
             alt="Hukuk bürosu ekip çalışması"
             layout="fill"
             objectFit="cover"
@@ -107,6 +108,7 @@ export default function Yayinlarimiz() {
                         alt={card.title}
                         width={200}
                         height={200}
+                        priority
                         className="object-cover h-full w-full rounded-l-lg"
                       />
                     </div>

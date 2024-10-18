@@ -69,6 +69,7 @@ export default function Anasayfa() {
       <div className="relative h-[90vh] text-white overflow-hidden ">
         <Image
           src="/scale-image.jpg"
+          priority
           layout="fill"
           objectFit="cover"
           quality={100}
